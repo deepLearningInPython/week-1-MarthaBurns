@@ -31,14 +31,14 @@ def step(num):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu(num, cutoff = 0):
+def ReLu(num, cutoff=0):
     array = []
     for i in range(len(num)):
         if num[i] < cutoff:
-            array.append(0)
+            array.append(cutoff)
         else:
             array.append(num[i])
-    return array
+    return numpy.array(array)
 
 # -----------------------------------------------
 
