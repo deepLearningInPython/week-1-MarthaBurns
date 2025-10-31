@@ -7,7 +7,7 @@ import numpy
 # Task 1: 
 # Instructions:
 #Write a function that takes one numeric argument as input. 
-#If the number is larger than zero, the function should return 1, otherwise is should return -1.
+#If the number is larger than zero, the function should return 1, otherwise it should return -1.
 #The name of the function should be step
 
 # Your code here:
@@ -25,7 +25,7 @@ def step(num):
 # Task 2:
 # Instructions:
 #Write a function that takes in two arguments: a numpy array, and an integer (call argument "cutoff" and set default to 0).
-#The function should return a numpy array of the same length, with all elements smaller than the cutoff being set to cutoff).
+#The function should return a numpy array of the same length, with all elements smaller than the cutoff being set to cutoff.
 #The name of the function should be ReLu
 
 
